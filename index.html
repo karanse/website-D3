@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sema Website</title>
+  <meta name="description" content="Developer portfolio based in Barcelona" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg-canvas" width="800" height="600"></canvas>
+  <nav>
+    <span id="logo">PORTFOLIO</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <main>
+      <section class="summary">
+        <p class="summary-label"> HOLA, I'M</p>
+        <h1>Sema Karan</h1>
+        <p class="summary-desc">A developer based in <span class="text-terracotta">Barcelona</span>, building warm, functional things for the web.</p>
+        <div class="color-swatches">
+        <div class="swatch" style="background: hsl(12, 60%, 48%)"></div>
+        <div class="swatch" style="background: hsl(200, 65%, 52%)"></div>
+        <div class="swatch" style="background: hsl(38, 55%, 70%)"></div>
+        <div class="swatch" style="background: hsl(85, 30%, 45%)"></div>
+        <div class="swatch" style="background: hsl(350, 60%, 75%)"></div>
+      </div>
+      </section>
+
+      <section id="about" class="section fade-in">
+        <h2 id="section-title">About</h2>
+        <p>I'm a developer based in <span class="text-mediterranean">Barcelona</span>, with a background in data & analytics for 7 years in Amsterdam, currently blending analytical skills with coding know-how to create purposeful digital experiences.</p>
+        <p>When I'm not coding, you'll find me wandering through the mountains for hiking, dancing salsa, or taking care of sourdough starter to bake delicious breads.</p>
+        <div class="skills">
+          <span class="skill skill-terracotta">HTML</span>
+          <span class="skill skill-mediterranean">CSS</span>
+          <span class="skill skill-sand">JavaScript</span>
+          <span class="skill skill-olive">TypeScript</span>
+          <span class="skill skill-pink">React</span>
+          <span class="skill skill-terracotta">Git</span>
+          <span class="skill skill-mediterranean">Ruby</span>
+          <span class="skill skill-sand">Rails</span>
+          <span class="skill skill-olive">Node.js</span>
+      </div>
+      </section>
+
+      <section id="projects" class="section fade-in">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>BuddyBoost App</h3><span class="arrow">↗</span>
+          </div>
+          <p>BuddyBoost is a web app which pairs users with a dedicated accountability buddy who shares similar goals and aspirations based on their preferences.</p>
+          <div class="tags">
+            <span>HTML</span><span>JS</span><span>CSS</span><span>Ruby</span><span>Rails</span><span>Git/Github</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Rbnb App</h3><span class="arrow">↗</span>
+          </div>
+          <p>This is a clone project of AirBnB website where we built the minimal fullstack version of AirBnB website as a group project.</p>
+          <div class="tags">
+            <span>HTML</span><span>StimulusJS</span><span>CSS</span><span>Ruby</span><span>Rails</span><span>Git/Github</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Chrome Extension</h3><span class="arrow">↗</span>
+          </div>
+          <p>A chrome extension to identify specific components which are built by Spotify Design System Team (Encore) on a given internal/external Spotify web page. The goal was to quickly identify the usage of Encore components and evaluate the coverage of the components.</p>
+          <div class="tags">
+            <span>HTML</span><span>JS</span><span>CSS</span><span>Google Chrome API</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section fade-in">
+        <h2 class="section-title">Contact</h2>
+        <p>Interested in working together? Let's grab a café con leche and chat.</p>
+        <a href="mailto:hello@example.com" class="email-link">HELLO@EXAMPLE.COM</a>
+        <div class="social-links">
+          <a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">Twitter</a>
+        </div>
+      </section>
+
+
+    </main>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
