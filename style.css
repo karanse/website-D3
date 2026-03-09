@@ -133,7 +133,7 @@ section p {
   margin-bottom: 20px;
 }
 
-//* === Skills === */
+/* === Skills === */
 .skills { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 40px; }
 .skill {
   font-family: 'Space Mono', monospace;
