@@ -134,3 +134,42 @@ main {
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.skill {
+  padding: 6px 12px;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 1px solid;
+  border-radius: 999px;
+  background: var(--card);
+}
+
+.skill-terracotta { border-color: hsla(12, 60%, 48%, 0.4); color: var(--terracotta); }
+.skill-mediterranean { border-color: hsla(200, 65%, 52%, 0.4); color: var(--mediterranean); }
+.skill-sand { border-color: hsla(38, 55%, 70%, 0.4); color: var(--sand); }
+.skill-olive { border-color: hsla(85, 30%, 45%, 0.4); color: var(--olive); }
+.skill-pink { border-color: hsla(350, 60%, 75%, 0.4); color: var(--pink); }
+
+.project-card {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.project-card:hover { background: var(--card); border-color: hsla(12, 60%, 48%, 0.3); }
+.project-card:hover h3 { color: var(--terracotta); }
+.project-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px; }
+.project-header h3 { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; transition: color 0.3s; }
+.arrow { font-family: 'Space Mono', monospace; color: var(--mediterranean); font-size: 20px; transition: transform 0.3s; }
+.project-card:hover .arrow { transform: translate(4px, -4px); }
+.tags { display: flex; gap: 8px; }
+.tags span { font-family: 'Space Mono', monospace; font-size: 12px; color: var(--muted); letter-spacing: 2px; }
